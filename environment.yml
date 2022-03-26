@@ -1,0 +1,16 @@
+name: quantum-genart
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - cairo
+  - cairosvg
+  - jedi=0.17.2
+  - jupyterlab
+  - line_profiler
+  - pip
+  - ipywidgets
+  - widgetsnbextension
+  - pip:
+      - py5
+      - qiskit[visualization]
